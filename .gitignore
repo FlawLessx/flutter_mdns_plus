@@ -239,3 +239,7 @@ DerivedData/
 # End of https://www.gitignore.io/api/dart,xcode,android,androidstudio
 example/ios/Flutter/flutter_export_environment.sh
 example/.flutter-plugins-dependencies
+
+.fvm/
+.vscode/
+

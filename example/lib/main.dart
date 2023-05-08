@@ -16,6 +16,7 @@ class _MyAppState extends State<MyApp> {
   late FlutterMdnsPlugin _mdnsPlugin;
   List<String> messageLog = <String>[];
   late DiscoveryCallbacks discoveryCallbacks;
+  // ignore: unused_field
   List<ServiceInfo> _discoveredServices = <ServiceInfo>[];
 
   @override
@@ -63,6 +64,7 @@ class _MyAppState extends State<MyApp> {
   void reassemble() {
     super.reassemble();
 
+    // ignore: unnecessary_null_comparison
     if (null != _mdnsPlugin) {
       _discoveredServices = <ServiceInfo>[];
       _mdnsPlugin.restartDiscovery();

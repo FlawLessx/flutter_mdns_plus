@@ -5,8 +5,8 @@ repository: https://github.com/terrabythia/flutter_mdns_plugin
 version: 0.0.3
 
 environment:
-  sdk: '>=2.12.0 <3.0.0'
-  flutter: ">=2.0.3"
+  sdk: ">=2.17.0 <3.0.0"
+  flutter: ">=2.10.2"
 
 dependencies:
   flutter:
@@ -18,11 +18,11 @@ dependencies:
 # The following section is specific to Flutter.
 flutter:
   plugin:
-    platforms: 
+    platforms:
       android:
         package: eu.sndr.fluttermdnsplugin
         pluginClass: FlutterMdnsPlugin
-      ios: 
+      ios:
         pluginClass: FlutterMdnsPlugin
 
   # To add assets to your plugin package, add an assets section, like this:
