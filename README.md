@@ -1,4 +1,4 @@
-# Flutter MDNS PLUS
+# Flutter MDNS Plugin PLUS
 
 Forked from pub.dev package: https://pub.dev/packages/flutter_mdns_plugin, since the original no longer maintained.
 

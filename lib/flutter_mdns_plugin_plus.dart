@@ -78,7 +78,7 @@ class FlutterMdnsPlugin {
   late String _serviceType;
 
   static const MethodChannel _channel =
-      const MethodChannel('flutter_mdns_plugin');
+      const MethodChannel('flutter_mdns_plugin_plus');
 
   final EventChannel _serviceDiscoveredChannel =
       const EventChannel("$NAMESPACE/discovered");

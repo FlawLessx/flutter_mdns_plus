@@ -1,6 +1,6 @@
-# flutter_mdns_plugin_example
+# flutter_mdns_plugin_plus_example
 
-Demonstrates how to use the flutter_mdns_plugin plugin.
+Demonstrates how to use the flutter_mdns_plugin_plus plugin.
 
 ## Getting Started
 

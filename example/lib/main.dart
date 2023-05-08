@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_mdns_plugin/flutter_mdns_plugin.dart';
+import 'package:flutter_mdns_plugin_plus/flutter_mdns_plugin_plus.dart';
 
 void main() => runApp(new MyApp());
 

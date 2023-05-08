@@ -22,7 +22,7 @@
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
 
   FlutterMethodChannel* channel = [FlutterMethodChannel
-      methodChannelWithName:@"flutter_mdns_plugin"
+      methodChannelWithName:@"flutter_mdns_plugin_plus"
             binaryMessenger:[registrar messenger]];
   FlutterMdnsPlugin* instance = [[FlutterMdnsPlugin alloc] init];
 

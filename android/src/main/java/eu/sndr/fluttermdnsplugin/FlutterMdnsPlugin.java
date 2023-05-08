@@ -188,7 +188,7 @@ public class FlutterMdnsPlugin implements MethodCallHandler, FlutterPlugin  {
 
   @Override
   public void onAttachedToEngine(@NonNull FlutterPluginBinding binding) {
-    methodChannel = new MethodChannel(binding.getBinaryMessenger(), "flutter_mdns_plugin");
+    methodChannel = new MethodChannel(binding.getBinaryMessenger(), "flutter_mdns_plugin_plus");
     methodChannel.setMethodCallHandler(this);
 
     applicationContext = binding.getApplicationContext();

@@ -1,8 +1,8 @@
-name: flutter_mdns_plugin
-description: Flutter mDNS plugin
-homepage: https://github.com/terrabythia/flutter_mdns_plugin
-repository: https://github.com/terrabythia/flutter_mdns_plugin
-version: 0.0.3
+name: flutter_mdns_plugin_plus
+description: Flutter mDNS Plus
+homepage: https://github.com/FlawLessx/flutter_mdns_plus
+repository: https://github.com/FlawLessx/flutter_mdns_plus
+version: 0.0.4
 
 environment:
   sdk: ">=2.17.0 <3.0.0"
